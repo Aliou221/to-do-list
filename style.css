@@ -177,3 +177,13 @@ button.edite{
     font-size: 18px;
     color: #000;
 }
+
+@media (max-width:540px){
+    form {
+        flex-direction: column;
+    }
+
+    .form,.Search{
+        width: 100%;
+    }
+}
